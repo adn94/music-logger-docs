@@ -1,40 +1,11 @@
-site_name: Music Logger Documentation
-site_description: Documentation for the Music Logger Flutter App
-site_author: Ahmet
-repo_url: https://github.com/YOUR_USERNAME/dj-set-logger-app
-edit_uri: edit/main/docs/
-
+﻿site_name: Music Logger Docs
 theme:
   name: material
   features:
     - navigation.tabs
     - navigation.sections
-    - content.code.copy
-  palette:
-    # Light mode
-    - media: "(prefers-color-scheme: light)"
-      scheme: default
-      primary: indigo
-      accent: indigo
-      toggle:
-        icon: material/weather-sunny
-        name: Switch to dark mode
-    # Dark mode
-    - media: "(prefers-color-scheme: dark)"
-      scheme: slate
-      primary: indigo
-      accent: indigo
-      toggle:
-        icon: material/weather-night
-        name: Switch to light mode
 
 nav:
   - Home: index.md
-  - Project Overview: project_summary.md
-  - Architecture:
-      - Core Logic: architecture/core_logic.md
-      - Data Lake: architecture/data_lake.md
-  - Deployment:
-      - Play Store: deployment/playstore.md
-      - OTA Updates: deployment/ota.md
-  - API Reference: api_reference.md
+  - Rechtliches:
+      - 'Privacy Policy': privacy-policy.md
