@@ -1,10 +1,10 @@
-# Welcome to My App
+# Music Logger Documentation
 
-This is the documentation homepage.
+Welcome to the official documentation for the **Music Logger** app.
 
-## Getting Started
+## Overview
 
-Thank you for visiting my application's documentation. Here you will find all the important information.
+This site contains all legal and privacy-related information regarding the usage of the Music Logger app and its services.
 
 * [Privacy Policy](privacy-policy.md)
-* [General Terms and Conditions](agb.md)
+* [General Terms and Conditions (AGB)](agb.md)

@@ -37,7 +37,7 @@ Deviating terms and conditions of the user shall not apply.
 
 (4) The App serves specifically for the *documentation of played music*, the analysis of playlists, and the avoidance of song duplications.
 
-(5) Music recognition is performed automatically via external music recognition interfaces (APIs), specifically utilizing *Shazam technology*.
+(5) Music recognition is performed automatically via external music recognition interfaces (APIs), utilizing technologies such as *Shazam and ACRCloud*.
 
 (6) The average recognition accuracy of the App is *approx. 80%*. A complete or error-free recognition of all played songs is technically not possible.
 
@@ -116,7 +116,7 @@ Recording does *not take place automatically* and *not without the user's knowle
 
 (3) The provider assumes *no responsibility for GEMA, licensing, or copyright obligations* of the users.
 
-(4) The provider is not liable for restrictions resulting from the use of external music recognition services (e.g., Shazam API), lack of internet connection, or altered music parameters.
+(4) The provider is not liable for restrictions resulting from the use of external music recognition services (e.g., Shazam API, ACRCloud), lack of internet connection, or altered music parameters.
 
 (5) The App represents a *supporting documentation tool* and not a legally binding or evidentiary protocol.
 

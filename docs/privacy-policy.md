@@ -14,12 +14,12 @@ To provide music recognition features, "Music Logger" requires access to your de
 * **No Permanent Storage:** No audio recordings are permanently stored on your device.
 * **No Audio Transmission:** No raw audio files are ever transmitted to our servers or any third parties.
 * **Local Processing:** The audio stream is processed directly on your device to generate a unique digital fingerprint.
-* **Third-Party Service (ACRCloud):** Only this anonymous digital fingerprint (which cannot be converted back into audio) is sent to our recognition provider, ACRCloud, solely for the purpose of retrieving song metadata (Title, Artist).
+* **Third-Party Services (ACRCloud & Shazam):** Only this anonymous digital fingerprint (which cannot be converted back into audio) is sent to our recognition providers, such as ACRCloud or Apple (Shazam), solely for the purpose of retrieving song metadata (Title, Artist).
 
 We do not listen to, record, or store your conversations or environment audio for any other purpose.
 
-## 3. Data Processing via ACRCloud
-To identify songs, we use the service provided by ACRCloud.
+## 3. Data Processing via Recognition Providers
+To identify songs, we use external services provided by **ACRCloud** and **Apple (Shazam)**.
 
 * **Purpose:** Music Recognition.
 * **Data Transmitted:** Digital Fingerprints (No raw audio).
