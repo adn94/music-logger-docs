@@ -9,3 +9,4 @@ nav:
   - Home: index.md
   - Rechtliches:
       - 'Privacy Policy': privacy-policy.md
+      - 'AGB': agb.md
