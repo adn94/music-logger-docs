@@ -38,7 +38,7 @@ Die Seite ist dann unter `http://127.0.0.1:8000` erreichbar.
 nav:
   - Home: index.md
   - Kontakt: kontakt.md  # <-- Neue Seite hier eintragen
-  - Rechtliches: ...
+  - Legal: ...
 ```
 
 ### Bestehende Inhalte ändern

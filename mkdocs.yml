@@ -7,6 +7,6 @@ theme:
 
 nav:
   - Home: index.md
-  - Rechtliches:
+  - Legal:
       - 'Privacy Policy': privacy-policy.md
       - 'AGB': agb.md
