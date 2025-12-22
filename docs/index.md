@@ -6,5 +6,5 @@ This is the documentation homepage.
 
 Thank you for visiting my application's documentation. Here you will find all the important information.
 
-* [Privacy Policy](privacy-policy/)
-* [General Terms and Conditions](agb/)
+* [Privacy Policy](privacy-policy.md)
+* [General Terms and Conditions](agb.md)
