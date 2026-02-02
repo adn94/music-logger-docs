@@ -7,8 +7,6 @@ theme:
 
 nav:
   - Home: index.md
-  - Development:
-      - 'Testing Strategy': testing-strategy.md
   - Legal:
       - 'Privacy Policy': privacy-policy.md
       - 'AGB': agb.md
