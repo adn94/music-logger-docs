@@ -429,13 +429,41 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#3-third-party-data-sharing-shazam" class="md-nav__link">
+  <a href="#3-third-party-data-sharing" class="md-nav__link">
     <span class="md-ellipsis">
       
-        3. Third-Party Data Sharing (Shazam)
+        3. Third-Party Data Sharing
       
     </span>
   </a>
+  
+    <nav class="md-nav" aria-label="3. Third-Party Data Sharing">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#31-apple-music-shazamkit" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.1 Apple Music / ShazamKit
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#32-spotify" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.2 Spotify
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -582,13 +610,41 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#3-third-party-data-sharing-shazam" class="md-nav__link">
+  <a href="#3-third-party-data-sharing" class="md-nav__link">
     <span class="md-ellipsis">
       
-        3. Third-Party Data Sharing (Shazam)
+        3. Third-Party Data Sharing
       
     </span>
   </a>
+  
+    <nav class="md-nav" aria-label="3. Third-Party Data Sharing">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#31-apple-music-shazamkit" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.1 Apple Music / ShazamKit
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#32-spotify" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.2 Spotify
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -658,11 +714,19 @@ Email: music.logger.app@gmail.com</p>
 <li><strong>No Permanent Storage:</strong> We do <strong>not</strong> permanently store raw audio files on your device or our servers. The raw audio buffer is discarded immediately after the fingerprint is generated.</li>
 <li><strong>No Audio Transmission:</strong> No raw audio files are ever transmitted to our servers or any third parties.</li>
 </ul>
-<h2 id="3-third-party-data-sharing-shazam">3. Third-Party Data Sharing (Shazam)</h2>
+<h2 id="3-third-party-data-sharing">3. Third-Party Data Sharing</h2>
+<p>To provide our services, we partner with selected third-party providers.</p>
+<h3 id="31-apple-music-shazamkit">3.1 Apple Music / ShazamKit</h3>
 <p>To identify songs, we use external services provided by <strong>Apple (Shazam)</strong>.
 *   <strong>Data Shared:</strong> Only an anonymous digital fingerprint is shared. This fingerprint cannot be reversed into intelligible audio.
 *   <strong>Purpose:</strong> To retrieve song metadata (Title, Artist).
 *   <strong>Policy:</strong> Usage is also subject to <a href="https://www.apple.com/legal/privacy/en-ww/">Apple's Privacy Policy</a>.</p>
+<h3 id="32-spotify">3.2 Spotify</h3>
+<p>We integrate with Spotify to provide direct playback features.
+*   <strong>Data Shared:</strong> When you connect your Spotify account, we transmit search queries (Song Title, Artist) to Spotify to locate tracks.
+*   <strong>Permissions:</strong> We request access to your basic profile (<code>user-read-private</code>) to authenticate requests. We do <strong>not</strong> access your private playlists or listening history.
+*   <strong>Security:</strong> Authentication tokens are stored securely on your device. We do not process or store your Spotify credentials.
+*   <strong>Policy:</strong> By connecting your account, you agree to <a href="https://www.spotify.com/legal/privacy-policy/">Spotify's Privacy Policy</a>.</p>
 <h2 id="4-data-retention-deletion">4. Data Retention &amp; Deletion</h2>
 <ul>
 <li><strong>Recognition Logs:</strong> Metadata (Title, Artist, Timestamp) is stored locally and, if Sync is enabled, in our secure Supabase cloud.</li>
