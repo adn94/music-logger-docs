@@ -33,7 +33,7 @@ Deviating terms and conditions of the user shall not apply.
 
 (4) The App serves specifically for the documentation of played music and the avoidance of song duplications.
 
-(5) Music recognition is performed automatically via external music recognition interfaces, primarily utilizing **Shazam (Apple)** technology.
+(5) Music recognition is performed automatically via external music recognition interfaces, primarily utilizing **Shazam (Apple)** technology. Integrated playback functionalities are provided via **Spotify**.
 
 (6) The average recognition accuracy of the App is *approx. 80%*. A complete or error-free recognition of all played songs is technically not possible.
 
@@ -86,7 +86,7 @@ Deviating terms and conditions of the user shall not apply.
 (1) No guarantee is assumed for the completeness or correctness of the music recognition.
 (2) The provider is not liable for incorrect song recognitions or technical failures.
 (3) The provider assumes *no responsibility for GEMA, licensing, or copyright obligations* of the users.
-(4) The provider is not liable for restrictions resulting from the use of external services (e.g., Shazam API) or lack of internet connection.
+(4) The provider is not liable for restrictions resulting from the use of external services (e.g., Shazam API, Spotify API) or lack of internet connection.
 
 ---
 

@@ -17,11 +17,22 @@ To provide the core "Background Recognition" feature, the app requires the `andr
 *   **No Permanent Storage:** We do **not** permanently store raw audio files on your device or our servers. The raw audio buffer is discarded immediately after the fingerprint is generated.
 *   **No Audio Transmission:** No raw audio files are ever transmitted to our servers or any third parties.
 
-## 3. Third-Party Data Sharing (Shazam)
+## 3. Third-Party Data Sharing
+
+To provide our services, we partner with selected third-party providers.
+
+### 3.1 Apple Music / ShazamKit
 To identify songs, we use external services provided by **Apple (Shazam)**.
 *   **Data Shared:** Only an anonymous digital fingerprint is shared. This fingerprint cannot be reversed into intelligible audio.
 *   **Purpose:** To retrieve song metadata (Title, Artist).
 *   **Policy:** Usage is also subject to [Apple's Privacy Policy](https://www.apple.com/legal/privacy/en-ww/).
+
+### 3.2 Spotify
+We integrate with Spotify to provide direct playback features.
+*   **Data Shared:** When you connect your Spotify account, we transmit search queries (Song Title, Artist) to Spotify to locate tracks.
+*   **Permissions:** We request access to your basic profile (`user-read-private`) to authenticate requests. We do **not** access your private playlists or listening history.
+*   **Security:** Authentication tokens are stored securely on your device. We do not process or store your Spotify credentials.
+*   **Policy:** By connecting your account, you agree to [Spotify's Privacy Policy](https://www.spotify.com/legal/privacy-policy/).
 
 ## 4. Data Retention & Deletion
 *   **Recognition Logs:** Metadata (Title, Artist, Timestamp) is stored locally and, if Sync is enabled, in our secure Supabase cloud.
