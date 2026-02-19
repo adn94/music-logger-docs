@@ -9,4 +9,5 @@ nav:
   - Home: index.md
   - Legal:
       - 'Privacy Policy': privacy-policy.md
+      - 'Data Deletion': data-deletion.md
       - 'AGB': agb.md
