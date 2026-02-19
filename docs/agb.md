@@ -2,7 +2,7 @@
 
 ### 1. Scope of Application
 
-These General Terms and Conditions (GTC) govern the use of the app *"Music Logger"* (hereinafter referred to as "App") by consumers. The provider of the App is:
+These General Terms and Conditions (GTC) govern the use of the apps *"Music Logger"* and *"Music Hunter"* (hereinafter referred to as "Apps") by consumers. The provider of the Apps is:
 
 **Dj Chami & Chantre Productions UG**
 Germanusstrasse 30
@@ -17,15 +17,16 @@ Deviating terms and conditions of the user shall not apply.
 
 ### 2. Description of Services
 
-(1) Music Logger is an app for the *automated recognition and logging of music* played at events, parties, or comparable occasions.
+(1) **Music Logger** is an app for the *automated recognition and logging of music* played at events, parties, or comparable occasions (focused on DJs).
+(2) **Music Hunter** is an app for the *passive background recognition* of music in daily life (focused on listeners).
 
-(2) The App captures the following information:
+(3) Both Apps capture the following information:
 * Recognized song title
 * Recognized artist (author)
 * Time of playback
 * Location or event reference (if provided by user)
 
-(3) *The following are NOT captured or stored:*
+(4) *The following are NOT captured or stored:*
 * Conversations or voice recordings
 * Voices of individuals
 * Other audio content outside of music

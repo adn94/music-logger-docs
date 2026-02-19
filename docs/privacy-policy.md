@@ -1,6 +1,6 @@
 # Privacy Policy
 
-**Effective Date:** February 2, 2026
+**Effective Date:** February 19, 2026
 
 ## 1. Responsible Contact (Controller)
 **Dj Chami & Chantre Productions UG**
@@ -9,7 +9,7 @@ Germanusstrasse 30
 Email: music.logger.app@gmail.com
 
 ## 2. Audio Data Handling (Microphone Access)
-To provide the core "Background Recognition" feature, the app requires the `android.permission.RECORD_AUDIO` permission.
+To provide the core "Background Recognition" feature, the apps (**Music Logger** & **Music Hunter**) require the `android.permission.RECORD_AUDIO` permission.
 
 ### Collection & Usage
 *   **Collection:** We collect audio data solely for the purpose of identifying music playing in your environment.
