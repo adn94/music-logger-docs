@@ -1,6 +1,6 @@
 # Privacy Policy
 
-**Effective Date:** October 3, 2026
+**Effective Date:** October 24, 2026
 
 ## 1. Responsible Contact (Controller)
 **Dj Chami & Chantre Productions UG**
@@ -15,6 +15,8 @@ To provide the core "Background Recognition" feature, the apps (**Music Logger**
 *   **Collection:** We collect audio data solely for the purpose of identifying music playing in your environment.
 *   **Processing:** Audio is processed in real-time. The audio stream is processed directly on your device to generate a unique digital fingerprint.
 *   **No Permanent Storage:** We do **not** permanently store raw audio files on your device or our servers. The raw audio buffer is discarded immediately after the fingerprint is generated.
+*   **Fingerprints Kept on Your Device (Music Hunter):** If a fingerprint finds no match when it is created, because you are offline or because the track is not (yet) known to the recognition service, Music Hunter keeps that fingerprint in its database on your device and checks it again later. A fingerprint is not a recording; no audio can be played back from it. It is deleted when the track has been identified, when you delete its session or your account in the app, when you tap "Clear fingerprints" (Settings -> Identify later), or at the next check after it has become older than the period you choose there (1, 3, 6 or 12 months; 6 by default). All fingerprints together take at most 25 MB; beyond that the oldest are removed first. Fingerprints are never uploaded to our servers.
+*   **Repeated Tracks (iOS):** To recognise a track that plays again within a session, Music Hunter compares fingerprints of that session with each other on your device. Nothing leaves your device in this step.
 *   **No Audio Transmission:** No raw audio files are ever transmitted to our servers or any third parties.
 
 ## 3. Third-Party Data Sharing
@@ -23,7 +25,7 @@ To provide our services, we partner with selected third-party providers.
 
 ### 3.1 Apple Music / ShazamKit
 To identify songs, we use external services provided by **Apple (Shazam)**.
-*   **Data Shared:** Only an anonymous digital fingerprint is shared. This fingerprint cannot be reversed into intelligible audio.
+*   **Data Shared:** Only an anonymous digital fingerprint is shared. This fingerprint cannot be reversed into intelligible audio. A fingerprint that found no match when it was created may be sent to the recognition service again later, when the app checks it again.
 *   **Purpose:** To retrieve song metadata (Title, Artist).
 *   **Policy:** Usage is also subject to [Apple's Privacy Policy](https://www.apple.com/legal/privacy/en-ww/).
 
@@ -46,6 +48,7 @@ Music Hunter can export a recognised session as a playlist in your own YouTube M
 
 ## 4. Data Retention & Deletion
 *   **Recognition Logs:** Metadata (Title, Artist, Timestamp) is stored locally and, if Sync is enabled, in our secure Supabase cloud.
+*   **Fingerprints (Music Hunter):** Fingerprints without a match are stored on your device (see Section 2) and are not synchronised to our cloud. Like the rest of the app's local data, they can be included in your device's own backups (for example iCloud or Google backup) if you have enabled them. Deleting a session or your account in the app removes the fingerprints belonging to it from this device; uninstalling the app removes all of them.
 *   **Account Deletion:** You can delete your account and all associated cloud data at any time:
     *   **In-App:** Settings -> Account -> Delete Account.
     *   **Email:** Contact music.logger.app@gmail.com with the subject "Data Deletion Request".
