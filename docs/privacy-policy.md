@@ -30,10 +30,10 @@ To identify songs, we use external services provided by **Apple (Shazam)**.
 *   **Policy:** Usage is also subject to [Apple's Privacy Policy](https://www.apple.com/legal/privacy/en-ww/).
 
 ### 3.2 Spotify
-Music Hunter can open a recognised track in Spotify.
-*   **How it works:** When you tap "Open in Spotify", the app opens Spotify (app or website) with a search for that track. The search uses the track's ISRC (an international track code) if available, otherwise title and artist.
-*   **Data Shared:** Only this search, and only when you tap. The app does not connect to your Spotify account and sends nothing to Spotify in the background.
-*   **Versions before 1.1.7:** They also offer an optional "Connect Spotify". It uses your basic profile (`user-read-private`) to find tracks and stores an access token on your device. Version 1.1.7 deletes this token from your device. You can also remove the app's access in your Spotify account under [Manage apps](https://www.spotify.com/account/apps/).
+Both apps can open a recognised track in Spotify.
+*   **Opening a track:** The app opens Spotify (app or website) with a search for that track. Music Hunter searches by the track's ISRC (an international track code) if available, otherwise by title and artist. Nothing is sent to Spotify before you tap.
+*   **Connect Spotify (Music Logger, and Music Hunter before 1.1.7):** Optional. When connected, the app sends title and artist to Spotify to find the exact track. It requests your basic profile (`user-read-private`) and stores an access token on your device. We do **not** access your private playlists or listening history.
+*   **Removal:** Music Hunter 1.1.7 deletes this token from your device and no longer offers the connection. You can remove an app's access at any time in your Spotify account under [Manage apps](https://www.spotify.com/account/apps/).
 *   **Policy:** What happens inside Spotify is subject to [Spotify's Privacy Policy](https://www.spotify.com/legal/privacy-policy/).
 
 ### 3.3 YouTube Music (Google)
