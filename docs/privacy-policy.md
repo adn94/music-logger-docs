@@ -30,11 +30,11 @@ To identify songs, we use external services provided by **Apple (Shazam)**.
 *   **Policy:** Usage is also subject to [Apple's Privacy Policy](https://www.apple.com/legal/privacy/en-ww/).
 
 ### 3.2 Spotify
-We integrate with Spotify to provide direct playback features.
-*   **Data Shared:** When you connect your Spotify account, we transmit search queries (Song Title, Artist) to Spotify to locate tracks.
-*   **Permissions:** We request access to your basic profile (`user-read-private`) to authenticate requests. We do **not** access your private playlists or listening history.
-*   **Security:** Authentication tokens are stored securely on your device. We do not process or store your Spotify credentials.
-*   **Policy:** By connecting your account, you agree to [Spotify's Privacy Policy](https://www.spotify.com/legal/privacy-policy/).
+Music Hunter can open a recognised track in Spotify.
+*   **How it works:** When you tap "Open in Spotify", the app opens Spotify (app or website) with a search for that track. The search uses the track's ISRC (an international track code) if available, otherwise title and artist.
+*   **Data Shared:** Only this search, and only when you tap. The app does not connect to your Spotify account and sends nothing to Spotify in the background.
+*   **Versions before 1.1.7:** They also offer an optional "Connect Spotify". It uses your basic profile (`user-read-private`) to find tracks and stores an access token on your device. Version 1.1.7 deletes this token from your device. You can also remove the app's access in your Spotify account under [Manage apps](https://www.spotify.com/account/apps/).
+*   **Policy:** What happens inside Spotify is subject to [Spotify's Privacy Policy](https://www.spotify.com/legal/privacy-policy/).
 
 ### 3.3 YouTube Music (Google)
 Music Hunter can export a recognised session as a playlist in your own YouTube Music library. This only happens when you start the export yourself.
