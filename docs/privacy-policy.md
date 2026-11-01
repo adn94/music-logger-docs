@@ -46,6 +46,14 @@ Music Hunter can export a recognised session as a playlist in your own YouTube M
 *   **Limited Use:** Music Hunter's use of information received from Google APIs adheres to the [Google API Services User Data Policy](https://developers.google.com/terms/api-services-user-data-policy), including the Limited Use requirements.
 *   **Policy:** By connecting your account, you agree to [Google's Privacy Policy](https://policies.google.com/privacy).
 
+### 3.4 Apple Music (opening tracks, playlist export)
+Both apps can open a recognised track in Apple Music. On iPhone, they can also save a session as a playlist in your Apple Music library.
+*   **Opening a track:** When you tap it, the app looks the track up in Apple's public music catalogue, by its Apple Music ID or by title and artist. Nothing is sent before you tap.
+*   **Playlist export (iPhone):** Optional, and only when you start it. iOS first asks you to allow access to Apple Music. The app then sends the playlist name, a short description ("Recorded with Music Hunter" or "Recorded with Music Logger") and the matching tracks to Apple, which creates the playlist in your library.
+*   **What We Do Not Do:** We do **not** read your Apple Music library or listening history. The lookup and the export go directly from your device to Apple. Our servers are not involved.
+*   **Withdrawal:** You can remove an app's access to Apple Music at any time in the iPhone Settings.
+*   **Policy:** What happens inside Apple Music is subject to [Apple's Privacy Policy](https://www.apple.com/legal/privacy/en-ww/).
+
 ## 4. Data Retention & Deletion
 *   **Recognition Logs:** Metadata (Title, Artist, Timestamp) is stored locally and, if Sync is enabled, in our secure Supabase cloud.
 *   **Fingerprints (Music Hunter):** Fingerprints without a match are stored on your device (see Section 2) and are not synchronised to our cloud. Like the rest of the app's local data, they can be included in your device's own backups (for example iCloud or Google backup) if you have enabled them. Deleting a session or your account in the app removes the fingerprints belonging to it from this device; uninstalling the app removes all of them.
