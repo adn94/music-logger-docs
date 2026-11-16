@@ -1,11 +1,11 @@
 # Privacy Policy
 
-**Effective Date:** October 24, 2026
+**Effective Date:** November 16, 2026
 
 ## 1. Responsible Contact (Controller)
-**Dj Chami & Chantre Productions UG**
-Germanusstrasse 30
-52080 Aachen, Germany
+**Ahmet Aydin, DigitalAydin**
+Weidengasse 28
+50668 Köln, Germany
 Email: music.logger.app@gmail.com
 
 ## 2. Audio Data Handling (Microphone Access)
