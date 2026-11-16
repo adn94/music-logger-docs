@@ -1,11 +1,11 @@
 # Privacy Policy
 
-**Effective Date:** October 24, 2026
+**Effective Date:** November 16, 2026
 
 ## 1. Responsible Contact (Controller)
-**Dj Chami & Chantre Productions UG**
-Germanusstrasse 30
-52080 Aachen, Germany
+**Ahmet Aydin, DigitalAydin**
+Weidengasse 28
+50668 Köln, Germany
 Email: music.logger.app@gmail.com
 
 ## 2. Audio Data Handling (Microphone Access)
@@ -30,11 +30,11 @@ To identify songs, we use external services provided by **Apple (Shazam)**.
 *   **Policy:** Usage is also subject to [Apple's Privacy Policy](https://www.apple.com/legal/privacy/en-ww/).
 
 ### 3.2 Spotify
-We integrate with Spotify to provide direct playback features.
-*   **Data Shared:** When you connect your Spotify account, we transmit search queries (Song Title, Artist) to Spotify to locate tracks.
-*   **Permissions:** We request access to your basic profile (`user-read-private`) to authenticate requests. We do **not** access your private playlists or listening history.
-*   **Security:** Authentication tokens are stored securely on your device. We do not process or store your Spotify credentials.
-*   **Policy:** By connecting your account, you agree to [Spotify's Privacy Policy](https://www.spotify.com/legal/privacy-policy/).
+Both apps can open a recognised track in Spotify.
+*   **Opening a track:** The app opens Spotify (app or website) with a search for that track. Music Hunter searches by the track's ISRC (an international track code) if available, otherwise by title and artist. Nothing is sent to Spotify before you tap.
+*   **Connect Spotify (Music Logger, and Music Hunter before 1.1.7):** Optional. When connected, the app sends title and artist to Spotify to find the exact track. It requests your basic profile (`user-read-private`) and stores an access token on your device. We do **not** access your private playlists or listening history.
+*   **Removal:** Music Hunter 1.1.7 deletes this token from your device and no longer offers the connection. You can remove an app's access at any time in your Spotify account under [Manage apps](https://www.spotify.com/account/apps/).
+*   **Policy:** What happens inside Spotify is subject to [Spotify's Privacy Policy](https://www.spotify.com/legal/privacy-policy/).
 
 ### 3.3 YouTube Music (Google)
 Music Hunter can export a recognised session as a playlist in your own YouTube Music library. This only happens when you start the export yourself.
@@ -45,6 +45,14 @@ Music Hunter can export a recognised session as a playlist in your own YouTube M
 *   **Withdrawal:** Revoke access at any time in the app under Settings -> Connected Services, or at [myaccount.google.com/permissions](https://myaccount.google.com/permissions).
 *   **Limited Use:** Music Hunter's use of information received from Google APIs adheres to the [Google API Services User Data Policy](https://developers.google.com/terms/api-services-user-data-policy), including the Limited Use requirements.
 *   **Policy:** By connecting your account, you agree to [Google's Privacy Policy](https://policies.google.com/privacy).
+
+### 3.4 Apple Music (opening tracks, playlist export)
+Both apps can open a recognised track in Apple Music. On iPhone, they can also save a session as a playlist in your Apple Music library.
+*   **Opening a track:** When you tap it, the app looks the track up in Apple's public music catalogue, by its Apple Music ID or by title and artist. Nothing is sent before you tap.
+*   **Playlist export (iPhone):** Optional, and only when you start it. iOS first asks you to allow access to Apple Music. The app then sends the playlist name, a short description ("Recorded with Music Hunter" or "Recorded with Music Logger") and the matching tracks to Apple, which creates the playlist in your library.
+*   **What We Do Not Do:** We do **not** read your Apple Music library or listening history. The lookup and the export go directly from your device to Apple. Our servers are not involved.
+*   **Withdrawal:** You can remove an app's access to Apple Music at any time in the iPhone Settings.
+*   **Policy:** What happens inside Apple Music is subject to [Apple's Privacy Policy](https://www.apple.com/legal/privacy/en-ww/).
 
 ## 4. Data Retention & Deletion
 *   **Recognition Logs:** Metadata (Title, Artist, Timestamp) is stored locally and, if Sync is enabled, in our secure Supabase cloud.

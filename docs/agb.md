@@ -4,12 +4,12 @@
 
 These General Terms and Conditions (GTC) govern the use of the apps *"Music Logger"* and *"Music Hunter"* (hereinafter referred to as "Apps") by consumers. The provider of the Apps is:
 
-**Dj Chami & Chantre Productions UG**
-Germanusstrasse 30
-52080 Aachen
+**Ahmet Aydin, DigitalAydin**
+Weidengasse 28
+50668 Köln
 Germany
-VAT ID: DE341535251
-Email: [chami@dancefusionaachen.de](mailto:chami@dancefusionaachen.de)
+VAT: small business under § 19 UStG (Kleinunternehmer), no VAT ID
+Email: [music.logger.app@gmail.com](mailto:music.logger.app@gmail.com)
 
 Deviating terms and conditions of the user shall not apply.
 
@@ -121,7 +121,7 @@ Information regarding the processing of personal data is regulated in the *separ
 
 (1) German law applies.
 (2) Should individual provisions be invalid, the remaining regulations remain unaffected.
-(3) The place of jurisdiction is—to the extent legally permissible—Aachen, Germany.
+(3) The place of jurisdiction is—to the extent legally permissible—Köln (Cologne), Germany.
 
 ---
 
